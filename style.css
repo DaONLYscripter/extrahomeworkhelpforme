@@ -1,0 +1,150 @@
+	/* This is to style the blue bar on the top of the screen */
+		ul#links {
+			list-style-type:none;
+			margin:0;
+			padding:5px;
+			border:0;
+  		overflow: hidden;
+  	
+body {
+  background-color: mediumpurple;
+}
+		
+			/*Do not change this position:fixed unless you know what you are doing */
+  		position:fixed;
+  	
+			top:0;
+			width:100%;
+			left:0;
+
+			/* You can remove this if you don't want the shadow */
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		/* Styles the menu icon */
+		li span {
+			display:block;
+			color:#7a0054;
+			text-align:center;
+			padding:14px 14px;
+			font-family:Arial,sans-serif;
+		}
+
+		/* When the menu icon is hovered upon */
+		#menu span:hover {
+			background:#145c8f;
+			cursor:pointer;
+
+			/* Makes the button round */
+			-webkit-border-radius:50px;
+			border-radius:50px;
+			
+			color:#7a0054;
+
+			/* Change this value to speed up the transition or slow it down */
+			transition:0.2s;
+		}
+
+
+		/* When the icon is clicked */
+		#menu span:active {
+			background:#12507d;
+			-webkit-border-radius:50px;
+			border-radius:50px;
+			background-color:#003399;
+			color:##7a0054;
+		}
+      
+		/* Styles the menu */
+   div#sidenav {
+  		height: 100%;
+			width:0;
+
+			/*Do not change this unless you know what you are doing */
+  		position: fixed;
+
+			/* This ensures the menu stays on top with everything else */
+  		z-index: 1;
+  	
+			top: 0;
+  		left: 0;
+  		background-color: #111;
+  		overflow-x: hidden;
+  		transition: 0.5s;
+			padding-top:60px;
+		}
+
+		/*Styles the buttons within the menu */
+		div#sidenav a#sdlinks {
+  		padding: 8px 8px 8px 32px;
+			font-family:Arial,sans-serif;
+			font-weight:200;
+  		text-decoration: none;
+  		font-size: 20px;
+  		color: ##7a0054;
+  		display: block;
+  		transition: 0.3s;
+		}
+
+
+		/* When the buttons are hovered upon */
+		div#sidenav a#sdlinks:hover {
+  		color: ##7a0054;
+			background:#16649c;
+		}
+
+		/* Styles the close button */
+		div#sidenav #closebtn {
+  		position:absolute;
+  		top:15px;
+  		right:15px;
+			height:30px;
+			width:30px;
+			padding: 8px 8px 8px 8px;
+			font-weight:200;
+  		text-decoration: none;
+  		font-size: 30px;
+  		color: ##7a0054;
+  		display: block;
+  		transition: 0.3s;
+			text-align:center;
+			border-radius:50px;
+		}
+
+		div#sidenav #closebtn:hover {
+		color:blueviolet;
+		background:#7a0054;
+		transition:0.3s;
+		border-radius:50px;
+		}
+
+		h1#title {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+
+		p#content {
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:15px;
+		}
+
+		button#subscribe {
+			padding:15px;
+			border-radius:50px;
+			border:0px;
+		}
+
+		button#subscribe:hover {
+			cursor:pointer;
+		}
+
+		span#subscribe-btn {
+			padding:0px 0px 0px 0px 
+		}
+p {
+  color: #8B008B;
+
+ 
+title {
+  color: blueviolet
+}
+  

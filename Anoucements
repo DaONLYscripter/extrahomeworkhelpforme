@@ -1,0 +1,17 @@
+Website is almost done! Just need a little clean up on the Proxies and where they go. Like said before if the proxies do not work Dont put them in the Storage. 
+Also, I might try to get someone that does coding to join us and try to clean this up. Just letting you know. 
+
+
+Bookmarklets 
+javascript:(function () {let code = document.createElement('script');code.src = 'https://crownjs.anirudhiscool.repl.co/script.js';document.body.appendChild(code);}())
+Crown Js steps 
+1. Open new tab 
+2. Click the star in the top right corner 
+3. CLick More
+4. Delete the second box that has the actuall url for new tab then put it javascript:(function () {let code = document.createElement('script');code.src = 'https://crownjs.anirudhiscool.repl.co/script.js';document.body.appendChild(code);}())  <--- That
+go to a diffrent website or something thats not new tab
+then open your bookmark... Then enjoy! 
+
+Or the alternate way is to go here https://crownjs.anirudhiscool.repl.co/ (but its detected)
+
+I honestly think we need to have lessons because Splex you dont know what your doing neither do you xavier. i dont wanna be rude, but go to the 3 lines at the top left and go to learn and im going to also and just do those tutorials and stuff like that. Im joining with yall i need a little recap and also i have a website to if yall dont like the learning circullim on replit i think in my opinion both are more easier but the website goes simple and straight foward. 
